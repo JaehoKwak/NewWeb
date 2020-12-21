@@ -32,7 +32,7 @@ namespace NewWeb
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello JaeHo 03!");
+                    await context.Response.WriteAsync("Hello JaeHo 07!");
                 });
             });
         }
